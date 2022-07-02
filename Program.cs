@@ -27,7 +27,7 @@ class Result
         int distanceBetweenKangaroos = Math.Abs(kangaroo1Position - kangaroo2Position);
         int newDistance = 0;
 
-        //if the kangaroo at furtherer position make longer jumps they will never meet at same position
+        //if the kangaroo at furtherer position makes longer jumps they will never meet at same position
         if ((x1 > x2 && v1 > v2) || (x1 < x2 && v1 < v2))
         {
             return "NO";
